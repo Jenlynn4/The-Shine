@@ -1,0 +1,72 @@
+.container {
+  font-family: "Zen Loop", cursive;
+}
+
+h1 {
+  color: #a1bba2;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 80px;
+  text-decoration: underline;
+}
+
+.grid {
+  margin-left: 250px;
+  padding-bottom: 30px;
+}
+
+.box {
+  margin-top: -200px;
+  margin-bottom: 100px;
+  margin-left: 60px;
+}
+
+.boxOne {
+  margin-top: -200px;
+  margin-bottom: 100px;
+  margin-left: 470px;
+}
+
+.nonProfit {
+  color: #a1bba2;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  margin-top: -100px;
+}
+
+.kind {
+  float: right;
+  margin-top: -170px;
+}
+
+.love {
+  float: left;
+  margin-top: -170px;
+}
+
+.line {
+  background-color: #a1bba2;
+  color: #a1bba2;
+  margin-bottom: 5px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding-right: 70px;
+}
+
+.donate {
+  margin-top: 20px;
+  margin-bottom: -30px;
+  margin-left: 500px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+  color: inherit;
+}
