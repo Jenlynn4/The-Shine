@@ -62,6 +62,13 @@ h1 {
   margin-bottom: 5px;
 }
 
+.form {
+  background-color: #a1bba2;
+  display: block;
+  text-align: center;
+  font-family: "Zen Loop", cursive;
+}
+
 li {
   list-style: none;
   display: inline;

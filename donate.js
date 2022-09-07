@@ -32,11 +32,4 @@ let month = [
 let months = month[date.getMonth()];
 
 let stamp = document.querySelector("h2");
-stamp.innerHTML = `${days} the ${dates}th, of ${months} ${hours}: ${minutes}`;
-
-function searchBar() {
-  alert("We will send you more information!");
-}
-
-let emailForm = document.querySelector("form");
-emailForm.addEventListener("submit", searchBar);
+stamp.innerHTML = `${days} the ${dates}th, of ${months} ${hours}: ${minutes} `;

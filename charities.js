@@ -28,5 +28,4 @@ let month = [
 ];
 let months = month[date.getMonth()];
 let stamp = document.querySelector("h2");
-stamp.innerHTML = `${days} the ${dates}th, of $
-  {months} ${hours}: ${minutes} `;
+stamp.innerHTML = `${days} the ${dates}th, of ${months} ${hours}: ${minutes} `;
